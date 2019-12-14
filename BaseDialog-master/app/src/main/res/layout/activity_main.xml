@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_input_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="输入and选择" />
+
+    <Button
+        android:id="@+id/btn_muilt_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="列表" />
+
+    <Button
+        android:id="@+id/action_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ActionSheetDialog" />
+
+    <Button
+        android:id="@+id/alert_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyAlertDialog" />
+
+    <Button
+        android:id="@+id/alert_input_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyAlertInputDialog" />
+
+    <Button
+        android:id="@+id/update_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="在线升级" />
+
+
+    <Button
+        android:id="@+id/image_msg_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MyImageMsgDialog" />
+
+    <Button
+        android:id="@+id/confirm_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ConfirmDialog" />
+
+    <Button
+        android:id="@+id/connecting_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ConnectingDialog" />
+
+    <Button
+        android:id="@+id/loading_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LoadingDialog" />
+
+    <Button
+        android:id="@+id/loading_fragment_dialog"
+        android:layout_width="match_parent"
+        android:text="LoadingFragmentDialog"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/pwd_dialog"
+        android:layout_width="match_parent"
+        android:text="InputPwdDialog"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/pay_dialog"
+        android:layout_width="match_parent"
+        android:text="PayDialog"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
